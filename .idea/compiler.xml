@@ -1,11 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
-    <option name="DEFAULT_COMPILER" value="Javac" />
-    <excludeFromCompile>
-      <directory url="file://$PROJECT_DIR$/target/generated-sources/annotations" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/target/generated-test-sources/test-annotations" includeSubdirectories="true" />
-    </excludeFromCompile>
     <resourceExtensions />
     <wildcardResourcePatterns>
       <entry name="!?*.java" />
@@ -16,6 +11,7 @@
       <entry name="!?*.flex" />
       <entry name="!?*.kt" />
       <entry name="!?*.clj" />
+      <entry name="!?*.aj" />
     </wildcardResourcePatterns>
     <annotationProcessing>
       <profile default="true" name="Default" enabled="false">
@@ -26,9 +22,16 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
-        <module name="miko" />
+        <module name="runner" />
+        <module name="test" />
+        <module name="test-api" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="miko" target="1.5" />
+      <module name="runner" target="1.5" />
+      <module name="test" target="1.5" />
+      <module name="test-api" target="1.5" />
+    </bytecodeTargetLevel>
   </component>
 </project>
-

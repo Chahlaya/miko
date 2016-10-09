@@ -3,7 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/miko.iml" filepath="$PROJECT_DIR$/miko.iml" />
+      <module fileurl="file://$PROJECT_DIR$/runner/runner.iml" filepath="$PROJECT_DIR$/runner/runner.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test/test.iml" filepath="$PROJECT_DIR$/test/test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test-api/test-api.iml" filepath="$PROJECT_DIR$/test-api/test-api.iml" />
     </modules>
   </component>
 </project>
-

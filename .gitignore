@@ -1,0 +1,9 @@
+#directories#
+#############
+
+.idea/
+/**/target/
+
+#files#
+#############
+*.iml
