@@ -7,3 +7,5 @@
 #files#
 #############
 *.iml
+*.class
+*.jar
